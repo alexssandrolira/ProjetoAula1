@@ -1,7 +1,11 @@
-const numero1 = 15
-const numero2 = 35
-const verdadeiro = true
+const generico = new Animal('Animal Genérico ')
+generico.falar()
 
+const gato = new Gato('Gato ')
+gato.falar()
+
+const cachorro = new Cachorro('Dog ')
+cachorro.falar()
 //ternario
 //alert(numero1 > numero2 ? 'Numero 1 > 2' : 'Numero 1 Nao > 2')
 
@@ -36,7 +40,7 @@ pessoas.forEach(lerPessoa)
     console.log("Dentro do for lemos", pessoa)
 }
 */
-
+/*
 function funcaocustosa() {
     return new Promise(function (resolve,reject){
         //vai rodar de forma assíncrona
@@ -73,5 +77,7 @@ const calculo = () => {
 calculo().then(function (calcular){
     console.log(calcular)
 })
+*/
+
 
 
